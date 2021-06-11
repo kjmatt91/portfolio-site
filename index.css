@@ -1,0 +1,22 @@
+body {background-color: cornsilk;}
+div{color:rgb(22, 129, 12);
+background-color: rgb(194, 228, 250);
+height: 100px;
+width: 400px;}
+.byclass {background-color:darkgreen;
+border-radius: 100px;
+height: 200px;
+width: 200px;
+margin-top: 100px;
+margin-left: 100px;
+position: absolute;
+top: -10px;
+left: 300px;}
+a{color:darkred;}
+a:visited{color:darkviolet;}
+a:hover{color:rgb(57, 214, 36)}
+
+h1::first-line {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
