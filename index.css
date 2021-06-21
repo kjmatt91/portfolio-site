@@ -1,9 +1,21 @@
 body {background-color: cornsilk;}
 
-div{color:rgb(22, 129, 12);
-background-color: rgb(194, 228, 250);
+.text {
+color:rgb(22, 129, 12);
 width: 300px;
 height: 30px;}
+
+.quotes {
+    color:black;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 
 .arrow-up {
 height: 0;
@@ -24,11 +36,21 @@ left: 500px;}
     border-bottom: 100px solid darkkhaki;
     content: '';
     position: absolute;
-    top: 200px;
-    left: 500px;
+    top: 25px;
+    left: -100px;
 }
 
-a{color:darkred;}
+
+a {
+    color:darkred;
+    position:absolute;
+    top:5px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+    display:flex;
+    justify-content:center;
+}
 a:visited{color:darkviolet;}
 a:hover{color:rgb(57, 214, 36)}
 
