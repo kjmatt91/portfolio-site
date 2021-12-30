@@ -8,10 +8,9 @@ section {
 }
 
 .hero {
-  /*background-color: #ccf1d4; */
-  background-color: darkslateblue;
+  background-color: #ccf1d4;
   height: 100vh;
-  color: white;
+  color: black;
   font-size: 40px;
 }
 
@@ -166,7 +165,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .hamburger {
@@ -190,7 +189,7 @@ a {
 
   ul {
     display: none;
-    background-color: #2b2c38;
+    background-color: coral;
     margin: 0ppx;
   }
 
@@ -201,7 +200,7 @@ a {
   nav {
     display: flex;
     flex-direction: column-reverse;
-    background-color: #2b2c38;
+    background-color: coral;
   }
 
   .logo {
